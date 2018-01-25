@@ -652,7 +652,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 9b081518-058a-4718-ac16-305bb676e151
-  projectName: 
+  projectName: Playback Video AR
   organizationId: david-fiorin
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
