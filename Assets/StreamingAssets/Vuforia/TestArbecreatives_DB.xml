@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Cover_Lampoon" size="50.000000 67.003105" />
+    <ImageTarget name="Cover_Bulgari" size="50.000000 67.496109" />
+  </Tracking>
+</QCARConfig>
