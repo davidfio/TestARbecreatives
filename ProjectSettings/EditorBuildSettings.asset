@@ -5,6 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/MainScene.unity
+  - enabled: 0
+    path: Assets/Scenes/MainSceneLampoon.unity
     guid: 6fe07c944c5121c48b133de17de048cd
+  - enabled: 1
+    path: Assets/Scenes/MainSceneStyle.unity
+    guid: f09b60296fd940145bc1273c62d743e4
