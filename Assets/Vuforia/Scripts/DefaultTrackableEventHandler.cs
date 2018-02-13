@@ -16,6 +16,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 {
     #region PRIVATE_MEMBER_VARIABLES
 
+    public GameObject panelToEnable, panelToDisable;
+
     protected TrackableBehaviour mTrackableBehaviour;
 
     #endregion // PRIVATE_MEMBER_VARIABLES
@@ -84,6 +86,26 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Enable canvas':
         foreach (var component in canvasComponents)
             component.enabled = true;
+
+
+        //this.gameObject.GetComponent<WebController>().StartWebView();
+        if (this.gameObject.name == "D&G_Target" && this.isActiveAndEnabled)
+        {
+            Application.OpenURL("https://store.dolcegabbana.com/it/uomo/abbigliamento/abiti/abito-in-tela-di-lana-stretch-nero-G15SCTFUBBGN0000.html?cgid=men-apparel-suits#start=4");
+            //OnTrackingLost();
+
+            DisableThisGO();
+            
+            
+        }
+       
+    }
+
+    private void DisableThisGO()
+    {
+        panelToEnable.SetActive(true);
+        panelToDisable.SetActive(false);
+        this.gameObject.SetActive(false);
     }
 
 
