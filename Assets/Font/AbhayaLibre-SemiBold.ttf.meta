@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: da7d06239afde234c99e55b24d0a79b4
+timeCreated: 1518604514
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Abhaya Libre
+  fontNames:
+  - Abhaya Libre
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 697167b8fe63f284db18f47fd80c6ad9, type: 3}
+  - {fileID: 12800000, guid: 19b26ff8a95f2414aae74baa76c0ba90, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

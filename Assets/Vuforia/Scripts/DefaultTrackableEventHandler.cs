@@ -94,9 +94,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             Application.OpenURL("https://store.dolcegabbana.com/it/uomo/abbigliamento/abiti/abito-in-tela-di-lana-stretch-nero-G15SCTFUBBGN0000.html?cgid=men-apparel-suits#start=4");
             //OnTrackingLost();
 
-            DisableThisGO();
-            
-            
+            DisableThisGO();            
         }
        
     }
